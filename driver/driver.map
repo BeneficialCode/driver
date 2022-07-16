@@ -1,0 +1,525 @@
+ driver
+
+ Timestamp is 61d268c5 (Mon Jan  3 11:08:53 2022)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00006b18H .text$mn                CODE
+ 0002:00000000 00000110H .idata$5                DATA
+ 0002:00000110 000000a0H .rdata                  DATA
+ 0002:000001b0 00000004H .rdata$sxdata           DATA
+ 0002:000001b4 00000074H .rdata$voltmd           DATA
+ 0002:00000228 00000158H .rdata$zzzdbg           DATA
+ 0002:00000380 000000e4H .xdata$x                DATA
+ 0003:00000000 00000a00H .data                   DATA
+ 0003:00000a00 00000188H .bss                    DATA
+ 0004:00000000 00000028H .idata$2                DATA
+ 0004:00000028 00000014H .idata$3                DATA
+ 0004:0000003c 0000010cH .idata$4                DATA
+ 0004:00000148 00000558H .idata$6                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       _ProbeForWriteSmallStructure@12 00011000 f   CommonFunc.obj
+ 0001:00000110       _InitCommon@0              00011110 f   CommonFunc.obj
+ 0001:000006d0       _PsGetNextProcessThread@8  000116d0 f   CommonFunc.obj
+ 0001:000007b0       _MmGetFileNameForSection@8 000117b0 f   CommonFunc.obj
+ 0001:000008d0       _MmGetFileNameForAddress@8 000118d0 f   CommonFunc.obj
+ 0001:00000ad0       _GetAddress@12             00011ad0 f   CommonFunc.obj
+ 0001:00000c20       _SearchAddressForSign@12   00011c20 f   CommonFunc.obj
+ 0001:00000e70       _PageProtectOn@0           00011e70 f   CommonFunc.obj
+ 0001:00000e90       _PageProtectOff@0          00011e90 f   CommonFunc.obj
+ 0001:00000eb0       _SearchDriver@8            00011eb0 f   CommonFunc.obj
+ 0001:00000f20       _Jmp_HookFunction@12       00011f20 f   CommonFunc.obj
+ 0001:00000fc0       _Res_HookFunction@12       00011fc0 f   CommonFunc.obj
+ 0001:00001000       _PsCallImageNotifyRoutines@16 00012000 f   CommonFunc.obj
+ 0001:000010c0       _ExFastRefDereference@8    000120c0 f   CommonFunc.obj
+ 0001:00001120       _ExFastReference@4         00012120 f   CommonFunc.obj
+ 0001:00001170       _ExReferenceCallBackBlock@4 00012170 f   CommonFunc.obj
+ 0001:00001270       _ExDereferenceCallBackBlock@8 00012270 f   CommonFunc.obj
+ 0001:000012a0       _ExAcquirePushLockShared@4 000122a0 f   CommonFunc.obj
+ 0001:000012d0       _ExReleasePushLockShared@4 000122d0 f   CommonFunc.obj
+ 0001:00001310       _KeEnterCriticalRegionThread@4 00012310 f   CommonFunc.obj
+ 0001:00001330       _KeLeaveCriticalRegionThread@4 00012330 f   CommonFunc.obj
+ 0001:000013a0       _ExFastRefAddAdditionalReferenceCounts@12 000123a0 f   CommonFunc.obj
+ 0001:00001410       _MiFindNodeOrParent@12     00012410 f   CommonFunc.obj
+ 0001:00001520       _MiReferenceControlAreaFile@4 00012520 f   CommonFunc.obj
+ 0001:000015a0       @MiLocateAddress@4         000125a0 f   CommonFunc.obj
+ 0001:000016c0       _MmCheckForSafeExecution@16 000126c0 f   CommonFunc.obj
+ 0001:00001770       _KiEmulateAtlThunk@20      00012770 f   CommonFunc.obj
+ 0001:00001ba0       _KiCheckForAtlThunk@8      00012ba0 f   CommonFunc.obj
+ 0001:00001c30       _MmGetFileObjectForSection@4 00012c30 f   CommonFunc.obj
+ 0001:00001c70       _ObFastReferenceObject@4   00012c70 f   CommonFunc.obj
+ 0001:00001ce0       _ObFastReferenceObjectLocked@4 00012ce0 f   CommonFunc.obj
+ 0001:00001d10       _GetDriverDataEntry@8      00012d10 f   CommonFunc.obj
+ 0001:00001da0       _ObDuplicateObject@32      00012da0 f   CommonFunc.obj
+ 0001:00001de0       _PsCaptureExceptionPort@4  00012de0 f   CommonFunc.obj
+ 0001:00001e50       _GetModuleByName@8         00012e50 f   CommonFunc.obj
+ 0001:00002000       _ObfDereferenceObject_S@4  00013000 f   CommonFunc.obj
+ 0001:00002030       _ObfReferenceObject_S@4    00013030 f   CommonFunc.obj
+ 0001:00002060       _KeResumeThread@4          00013060 f   CommonFunc.obj
+ 0001:00002090       _TrapRecord@4              00013090 f   CommonFunc.obj
+ 0001:000021b0       _SearchProcessById@4       000131b0 f   CommonFunc.obj
+ 0001:00002260       _SearchProcess@4           00013260 f   CommonFunc.obj
+ 0001:00002320       _ExfAcquirePushLockShared_S@4 00013320 f   CommonFunc.obj
+ 0001:00002340       _ExfReleasePushLockShared_S@4 00013340 f   CommonFunc.obj
+ 0001:00002360       _ObFastDereferenceObject@8 00013360 f   CommonFunc.obj
+ 0001:00002390       _log_filter@4              00013390 f   CommonFunc.obj
+ 0001:000024d0       _DbgRaiseAssertionFailure@0 000134d0 f i CommonFunc.obj
+ 0001:000024e0       _ExInitializeFastMutex@4   000134e0 f i CommonFunc.obj
+ 0001:00002520       _KeInitializeSpinLock@4    00013520 f i CommonFunc.obj
+ 0001:00002530       _PsGetCurrentThread@0      00013530 f i CommonFunc.obj
+ 0001:00002540       _DriverUnLoad@4            00013540 f   DriverEntry.obj
+ 0001:00002550       _DriverEntry@8             00013550 f   DriverEntry.obj
+ 0001:000025a0       _NtCreateDebugObject@16    000135a0 f   kDbgSys.obj
+ 0001:00002760       _NtDebugActiveProcess@8    00013760 f   kDbgSys.obj
+ 0001:000028c0       _DbgkpPostFakeProcessCreateMessages@12 000138c0 f   kDbgSys.obj
+ 0001:00002940       _DbgkpPostFakeThreadMessages@20 00013940 f   kDbgSys.obj
+ 0001:00002cc0       _DbgkSendSystemDllMessages@12 00013cc0 f   kDbgSys.obj
+ 0001:00002f10       _DbgkpSendApiMessage@8     00013f10 f   kDbgSys.obj
+ 0001:00002f90       _DbgkpSuspendProcess@0     00013f90 f   kDbgSys.obj
+ 0001:00002fc0       _PsQuerySystemDllInfo@4    00013fc0 f   kDbgSys.obj
+ 0001:00003000       _DbgkpQueueMessage@20      00014000 f   kDbgSys.obj
+ 0001:00003240       _DbgkpPostModuleMessages@12 00014240 f   kDbgSys.obj
+ 0001:00003580       _DbgkpWakeTarget@4         00014580 f   kDbgSys.obj
+ 0001:000035f0       _DbgkpMarkProcessPeb@4     000145f0 f   kDbgSys.obj
+ 0001:000036e0       _DbgkpFreeDebugEvent@4     000146e0 f   kDbgSys.obj
+ 0001:00003760       _NtDebugContinue@12        00014760 f   kDbgSys.obj
+ 0001:00003980       _NtWaitForDebugEvent@16    00014980 f   kDbgSys.obj
+ 0001:00003d60       _DbgkpConvertKernelToUserStateChange@8 00014d60 f   kDbgSys.obj
+ 0001:00003f00       _DbgkpOpenHandles@12       00014f00 f   kDbgSys.obj
+ 0001:00004090       _DbgkpSetProcessDebugObject@16 00015090 f   kDbgSys.obj
+ 0001:000043b0       _DbgkpSectionToFileHandle@4 000153b0 f   kDbgSys.obj
+ 0001:00004440       _NtRemoveProcessDebug@8    00015440 f   kDbgSys.obj
+ 0001:00004530       _DbgkClearProcessDebugObject@8 00015530 f   kDbgSys.obj
+ 0001:00004660       _DbgkCreateThread@4        00015660 f   kDbgSys.obj
+ 0001:00004af0       _DbgkExitThread@4          00015af0 f   kDbgSys.obj
+ 0001:00004b80       _DbgkExitProcess@4         00015b80 f   kDbgSys.obj
+ 0001:00004c20       _DbgkMapViewOfSection@12   00015c20 f   kDbgSys.obj
+ 0001:00004e00       _DbgkMapViewOfSection_S@0  00015e00 f   kDbgSys.obj
+ 0001:00004e20       _DbgkUnMapViewOfSection@8  00015e20 f   kDbgSys.obj
+ 0001:00004f00       _DbgkUnMapViewOfSection_S@0 00015f00 f   kDbgSys.obj
+ 0001:00004f20       _DbgkForwardException@12   00015f20 f   kDbgSys.obj
+ 0001:000050c0       _DbgkpSendApiMessageLpc@12 000160c0 f   kDbgSys.obj
+ 0001:000050f0       _DbgkCopyProcessDebugPort@16 000160f0 f   kDbgSys.obj
+ 0001:00005240       _DbgkCopyProcessDebugPort_S@0 00016240 f   kDbgSys.obj
+ 0001:00005260       _InitDbgSys@0              00016260 f   kDbgSys.obj
+ 0001:00005960       _DbgkpSuppressDbgMsg@4     00016960 f   kDbgSys.obj
+ 0001:000059e0       _InitCreateNewFastMutex@0  000169e0 f   kDbgSys.obj
+ 0001:00005a70       _InitializeListHead@4      00016a70 f i kDbgSys.obj
+ 0001:00005a90       _InsertTailList@8          00016a90 f i kDbgSys.obj
+ 0001:00005ad0       _IsListEmpty@4             00016ad0 f i kDbgSys.obj
+ 0001:00005b00       _RemoveEntryList@4         00016b00 f i kDbgSys.obj
+ 0001:00005b50       _RemoveHeadList@4          00016b50 f i kDbgSys.obj
+ 0001:00005b80       _RtlStringCbCopyW@12       00016b80 f i kDbgSys.obj
+ 0001:00005bd0       _KeGetCurrentPrcb@0        00016bd0 f   kExceptSys.obj
+ 0001:00005be0       _ReplaceDbgSys@4           00016be0 f   LinkDbg.obj
+ 0001:00005e50       _RevertDbgSys@0            00016e50 f   LinkDbg.obj
+ 0001:00005f60       _HookKiFastCallEntry@4     00016f60 f   ReloadKernel.obj
+ 0001:00006060       _UnHookKiFastCallEntry@0   00017060 f   ReloadKernel.obj
+ 0001:000060c0       _SearchHookPointer@4       000170c0 f   ReloadKernel.obj
+ 0001:00006150       _FilterKiFastCallEntry@12  00017150 f   ReloadKernel.obj
+ 0001:000061e0       _NewKiFastCallEntry@0      000171e0 f   ReloadKernel.obj
+ 0001:00006200       _NewNtCreateFile@44        00017200 f   ReloadKernel.obj
+ 0001:000062a0       _SearchKiFastCallEntry@0   000172a0 f   ReloadKernel.obj
+ 0001:00006360       _ReadFileToMemory@12       00017360 f   ReloadKernel.obj
+ 0001:00006760       _SetNewSSDT@12             00017760 f   ReloadKernel.obj
+ 0001:000068b0       _RelocModule@8             000178b0 f   ReloadKernel.obj
+ 0001:000069aa       _memcpy                    000179aa f   ntoskrnl:ntoskrnl.exe
+ 0001:000069b0       _memset                    000179b0 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069b6       _strcpy                    000179b6 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069bc       _strlen                    000179bc f   ntoskrnl:ntoskrnl.exe
+ 0001:000069c2       _memmove                   000179c2 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069c8       _strstr                    000179c8 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069ce       __strupr                   000179ce f   ntoskrnl:ntoskrnl.exe
+ 0001:000069d4       _KeGetCurrentThread@0      000179d4 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069da       _RtlAssert@16              000179da f   ntoskrnl:ntoskrnl.exe
+ 0001:000069e0       _RtlInitUnicodeString@8    000179e0 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069e6       _RtlCompareUnicodeString@12 000179e6 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069ec       _DbgPrint                  000179ec f   ntoskrnl:ntoskrnl.exe
+ 0001:000069f2       _KeInitializeEvent@12      000179f2 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069f8       _KeQueryRuntimeThread@8    000179f8 f   ntoskrnl:ntoskrnl.exe
+ 0001:000069fe       _ExAllocatePool@8          000179fe f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a04       _ExAllocatePoolWithTag@12  00017a04 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a0a       _ExFreePoolWithTag@8       00017a0a f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a10       _ProbeForWrite@12          00017a10 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a16       @ExAcquireRundownProtection@4 00017a16 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a1c       @ExAcquireRundownProtectionEx@8 00017a1c f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a22       @ExReleaseRundownProtection@4 00017a22 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a28       @ExReleaseRundownProtectionEx@8 00017a28 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a2e       _MmGetSystemRoutineAddress@4 00017a2e f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a34       _IoGetCurrentProcess@0     00017a34 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a3a       _ObReferenceObjectByHandle@24 00017a3a f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a40       @ObfReferenceObject@4      00017a40 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a46       @ObfDereferenceObject@4    00017a46 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a4c       _ZwCreateFile@44           00017a4c f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a52       _ZwQueryInformationFile@20 00017a52 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a58       _ZwWriteFile@36            00017a58 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a5e       _ZwClose@4                 00017a5e f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a64       _ExRaiseDatatypeMisalignment@0 00017a64 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a6a       _MmIsAddressValid@4        00017a6a f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a70       _PsSetLoadImageNotifyRoutine@4 00017a70 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a76       _KeStackAttachProcess@8    00017a76 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a7c       _KeUnstackDetachProcess@4  00017a7c f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a82       _ExInitializePushLock@4    00017a82 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a88       _PsLookupProcessByProcessId@8 00017a88 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a8e       _ObInsertObject@24         00017a8e f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a94       _ObOpenObjectByPointer@28  00017a94 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006a9a       _ObQueryNameString@16      00017a9a f   ntoskrnl:ntoskrnl.exe
+ 0001:00006aa0       _sprintf                   00017aa0 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006aa6       __except_handler3          00017aa6 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006aac       _KeClearEvent@4            00017aac f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ab2       _KeSetEvent@12             00017ab2 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ab8       _KeWaitForSingleObject@20  00017ab8 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006abe       _KeQuerySystemTime@4       00017abe f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ac4       _ExAllocatePoolWithQuotaTag@12 00017ac4 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006aca       _ProbeForRead@12           00017aca f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ad0       _ZwOpenFile@24             00017ad0 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ad6       _ExRaiseAccessViolation@0  00017ad6 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006adc       _SeLocateProcessImageName@8 00017adc f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ae2       _RtlInitAnsiString@8       00017ae2 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006ae8       _RtlAnsiStringToUnicodeString@12 00017ae8 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006aee       _RtlFreeUnicodeString@4    00017aee f   ntoskrnl:ntoskrnl.exe
+ 0001:00006af4       _ZwReadFile@36             00017af4 f   ntoskrnl:ntoskrnl.exe
+ 0001:00006afa       _KeGetCurrentIrql@0        00017afa f   Hal:HAL.dll
+ 0001:00006b00       @KfAcquireSpinLock@4       00017b00 f   Hal:HAL.dll
+ 0001:00006b06       @KfReleaseSpinLock@8       00017b06 f   Hal:HAL.dll
+ 0001:00006b0c       @ExAcquireFastMutex@4      00017b0c f   Hal:HAL.dll
+ 0001:00006b12       @ExReleaseFastMutex@4      00017b12 f   Hal:HAL.dll
+ 0002:00000000       __imp_@KfReleaseSpinLock@8 00018000     Hal:HAL.dll
+ 0002:00000004       __imp_@KfAcquireSpinLock@4 00018004     Hal:HAL.dll
+ 0002:00000008       __imp__KeGetCurrentIrql@0  00018008     Hal:HAL.dll
+ 0002:0000000c       __imp_@ExReleaseFastMutex@4 0001800c     Hal:HAL.dll
+ 0002:00000010       __imp_@ExAcquireFastMutex@4 00018010     Hal:HAL.dll
+ 0002:00000014       \177HAL_NULL_THUNK_DATA    00018014     Hal:HAL.dll
+ 0002:00000018       __imp___strupr             00018018     ntoskrnl:ntoskrnl.exe
+ 0002:0000001c       __imp__KeGetCurrentThread@0 0001801c     ntoskrnl:ntoskrnl.exe
+ 0002:00000020       __imp__RtlAssert@16        00018020     ntoskrnl:ntoskrnl.exe
+ 0002:00000024       __imp__RtlInitUnicodeString@8 00018024     ntoskrnl:ntoskrnl.exe
+ 0002:00000028       __imp__RtlCompareUnicodeString@12 00018028     ntoskrnl:ntoskrnl.exe
+ 0002:0000002c       __imp__DbgPrint            0001802c     ntoskrnl:ntoskrnl.exe
+ 0002:00000030       __imp__KeInitializeEvent@12 00018030     ntoskrnl:ntoskrnl.exe
+ 0002:00000034       __imp__KeQueryRuntimeThread@8 00018034     ntoskrnl:ntoskrnl.exe
+ 0002:00000038       __imp__ExAllocatePool@8    00018038     ntoskrnl:ntoskrnl.exe
+ 0002:0000003c       __imp__ExAllocatePoolWithTag@12 0001803c     ntoskrnl:ntoskrnl.exe
+ 0002:00000040       __imp__ExFreePoolWithTag@8 00018040     ntoskrnl:ntoskrnl.exe
+ 0002:00000044       __imp__ProbeForWrite@12    00018044     ntoskrnl:ntoskrnl.exe
+ 0002:00000048       __imp_@ExAcquireRundownProtection@4 00018048     ntoskrnl:ntoskrnl.exe
+ 0002:0000004c       __imp_@ExAcquireRundownProtectionEx@8 0001804c     ntoskrnl:ntoskrnl.exe
+ 0002:00000050       __imp_@ExReleaseRundownProtection@4 00018050     ntoskrnl:ntoskrnl.exe
+ 0002:00000054       __imp_@ExReleaseRundownProtectionEx@8 00018054     ntoskrnl:ntoskrnl.exe
+ 0002:00000058       __imp__MmGetSystemRoutineAddress@4 00018058     ntoskrnl:ntoskrnl.exe
+ 0002:0000005c       __imp__IoGetCurrentProcess@0 0001805c     ntoskrnl:ntoskrnl.exe
+ 0002:00000060       __imp__ObReferenceObjectByHandle@24 00018060     ntoskrnl:ntoskrnl.exe
+ 0002:00000064       __imp_@ObfReferenceObject@4 00018064     ntoskrnl:ntoskrnl.exe
+ 0002:00000068       __imp_@ObfDereferenceObject@4 00018068     ntoskrnl:ntoskrnl.exe
+ 0002:0000006c       __imp__ZwCreateFile@44     0001806c     ntoskrnl:ntoskrnl.exe
+ 0002:00000070       __imp__ZwQueryInformationFile@20 00018070     ntoskrnl:ntoskrnl.exe
+ 0002:00000074       __imp__ZwWriteFile@36      00018074     ntoskrnl:ntoskrnl.exe
+ 0002:00000078       __imp__ZwClose@4           00018078     ntoskrnl:ntoskrnl.exe
+ 0002:0000007c       __imp__ExRaiseDatatypeMisalignment@0 0001807c     ntoskrnl:ntoskrnl.exe
+ 0002:00000080       __imp__strstr              00018080     ntoskrnl:ntoskrnl.exe
+ 0002:00000084       __imp__PsSetLoadImageNotifyRoutine@4 00018084     ntoskrnl:ntoskrnl.exe
+ 0002:00000088       __imp__KeStackAttachProcess@8 00018088     ntoskrnl:ntoskrnl.exe
+ 0002:0000008c       __imp__KeUnstackDetachProcess@4 0001808c     ntoskrnl:ntoskrnl.exe
+ 0002:00000090       __imp__ExInitializePushLock@4 00018090     ntoskrnl:ntoskrnl.exe
+ 0002:00000094       __imp__PsLookupProcessByProcessId@8 00018094     ntoskrnl:ntoskrnl.exe
+ 0002:00000098       __imp__ObInsertObject@24   00018098     ntoskrnl:ntoskrnl.exe
+ 0002:0000009c       __imp__ObOpenObjectByPointer@28 0001809c     ntoskrnl:ntoskrnl.exe
+ 0002:000000a0       __imp__ObQueryNameString@16 000180a0     ntoskrnl:ntoskrnl.exe
+ 0002:000000a4       __imp__sprintf             000180a4     ntoskrnl:ntoskrnl.exe
+ 0002:000000a8       __imp___except_handler3    000180a8     ntoskrnl:ntoskrnl.exe
+ 0002:000000ac       __imp__KeServiceDescriptorTable 000180ac     ntoskrnl:ntoskrnl.exe
+ 0002:000000ac       _KeServiceDescriptorTable  000180ac     ntoskrnl:ntoskrnl.exe
+ 0002:000000b0       __imp__KeClearEvent@4      000180b0     ntoskrnl:ntoskrnl.exe
+ 0002:000000b4       __imp__KeSetEvent@12       000180b4     ntoskrnl:ntoskrnl.exe
+ 0002:000000b8       __imp__KeWaitForSingleObject@20 000180b8     ntoskrnl:ntoskrnl.exe
+ 0002:000000bc       __imp__KeQuerySystemTime@4 000180bc     ntoskrnl:ntoskrnl.exe
+ 0002:000000c0       __imp__ExAllocatePoolWithQuotaTag@12 000180c0     ntoskrnl:ntoskrnl.exe
+ 0002:000000c4       __imp__ProbeForRead@12     000180c4     ntoskrnl:ntoskrnl.exe
+ 0002:000000c8       __imp__ZwOpenFile@24       000180c8     ntoskrnl:ntoskrnl.exe
+ 0002:000000cc       __imp__ExRaiseAccessViolation@0 000180cc     ntoskrnl:ntoskrnl.exe
+ 0002:000000d0       __imp__SeLocateProcessImageName@8 000180d0     ntoskrnl:ntoskrnl.exe
+ 0002:000000d4       _PsProcessType             000180d4     ntoskrnl:ntoskrnl.exe
+ 0002:000000d4       __imp__PsProcessType       000180d4     ntoskrnl:ntoskrnl.exe
+ 0002:000000d8       _PsThreadType              000180d8     ntoskrnl:ntoskrnl.exe
+ 0002:000000d8       __imp__PsThreadType        000180d8     ntoskrnl:ntoskrnl.exe
+ 0002:000000dc       __imp__PsInitialSystemProcess 000180dc     ntoskrnl:ntoskrnl.exe
+ 0002:000000e0       __imp__RtlInitAnsiString@8 000180e0     ntoskrnl:ntoskrnl.exe
+ 0002:000000e4       __imp__RtlAnsiStringToUnicodeString@12 000180e4     ntoskrnl:ntoskrnl.exe
+ 0002:000000e8       __imp__RtlFreeUnicodeString@4 000180e8     ntoskrnl:ntoskrnl.exe
+ 0002:000000ec       __imp__ZwReadFile@36       000180ec     ntoskrnl:ntoskrnl.exe
+ 0002:000000f0       __imp__memmove             000180f0     ntoskrnl:ntoskrnl.exe
+ 0002:000000f4       __imp__strlen              000180f4     ntoskrnl:ntoskrnl.exe
+ 0002:000000f8       __imp__strcpy              000180f8     ntoskrnl:ntoskrnl.exe
+ 0002:000000fc       __imp__memset              000180fc     ntoskrnl:ntoskrnl.exe
+ 0002:00000100       __imp__MmIsAddressValid@4  00018100     ntoskrnl:ntoskrnl.exe
+ 0002:00000104       __imp__memcpy              00018104     ntoskrnl:ntoskrnl.exe
+ 0002:00000108       \177ntoskrnl_NULL_THUNK_DATA 00018108     ntoskrnl:ntoskrnl.exe
+ 0002:00000168       __load_config_used         00018168     ntoskrnl:loadcfg.obj
+ 0002:000001b0       ___safe_se_handler_table   000181b0     <linker-defined>
+ 0002:000001b4       ___volatile_metadata       000181b4     <linker-defined>
+ 0003:000009ec       ___security_cookie         000199ec     MSVCRT:gs_cookie.obj
+ 0003:000009f0       ___security_cookie_complement 000199f0     MSVCRT:gs_cookie.obj
+ 0003:00000a24       _g_goto_origfunc           00019a24     <common>
+ 0003:00000a28       _g_fastcall_hookpointer    00019a28     <common>
+ 0003:00000a2c       _g_ntcreatefile            00019a2c     <common>
+ 0003:00000a30       _g_lp_virtual_pointer      00019a30     <common>
+ 0003:00000a34       _g_pnew_service_table      00019a34     <common>
+ 0003:00000a38       _g_new_kernel_inc          00019a38     <common>
+ 0003:00000a40       _g_DbgClearProcessDebugPortCode 00019a40     <common>
+ 0003:00000a45       _g_bHookDbgClearProcessDebugPort 00019a45     <common>
+ 0003:00000a48       _g_OrigKDbgClearProcessDebugPort 00019a48     <common>
+ 0003:00000a50       _g_DbgCopyProcessDebugPortCode 00019a50     <common>
+ 0003:00000a55       _g_bHookDbgCopyProcessDebugPort 00019a55     <common>
+ 0003:00000a58       _g_OrigKDbgCopyProcessDebugPort 00019a58     <common>
+ 0003:00000a60       _g_DbgForwardExceptionCode 00019a60     <common>
+ 0003:00000a65       _g_bHookDbgForwardException 00019a65     <common>
+ 0003:00000a68       _g_OrigKDbgForwardException 00019a68     <common>
+ 0003:00000a70       _g_DbgUnMapViewOfSectionCode 00019a70     <common>
+ 0003:00000a75       _g_bHookDbgUnMapViewOfSection 00019a75     <common>
+ 0003:00000a78       _g_OrigKDbgUnMapViewOfSection 00019a78     <common>
+ 0003:00000a80       _g_DbgMapViewOfSectionCode 00019a80     <common>
+ 0003:00000a85       _g_bHookDbgMapViewOfSection 00019a85     <common>
+ 0003:00000a88       _g_OrigKDbgMapViewOfSection 00019a88     <common>
+ 0003:00000a90       _g_DbgExitThreadCode       00019a90     <common>
+ 0003:00000a95       _g_bHookDbgExitThread      00019a95     <common>
+ 0003:00000a98       _g_OrigKDbgExitThread      00019a98     <common>
+ 0003:00000aa0       _g_DbgExitProcessCode      00019aa0     <common>
+ 0003:00000aa5       _g_bHookDbgExitProcess     00019aa5     <common>
+ 0003:00000aa8       _g_OrigKDbgExitProcess     00019aa8     <common>
+ 0003:00000ab0       _g_DbgCreateThreadCode     00019ab0     <common>
+ 0003:00000ab5       _g_bHookDbgCreateThread    00019ab5     <common>
+ 0003:00000ab8       _g_OrigKDbgCreateThread    00019ab8     <common>
+ 0003:00000abc       _DbgkpSendErrorMessage     00019abc     <common>
+ 0003:00000ac0       _g_OrigDbgkpSendApiMessageLpc 00019ac0     <common>
+ 0003:00000ac4       _DbgkDebugObjectType       00019ac4     <common>
+ 0003:00000ae0       _DbgkpProcessDebugPortMutex 00019ae0     <common>
+ 0003:00000b00       _g_bInitDebugSys           00019b00     <common>
+ 0003:00000b04       _MiChangeControlAreaFileLock 00019b04     <common>
+ 0003:00000b08       _ExpCallBackFlush          00019b08     <common>
+ 0003:00000b0c       _NewKeResumeThread         00019b0c     <common>
+ 0003:00000b10       _NewObfReferenceObject     00019b10     <common>
+ 0003:00000b14       _NewObfDereferenceObject   00019b14     <common>
+ 0003:00000b18       _NtProtectVirtualMemory    00019b18     <common>
+ 0003:00000b1c       _PsLookupProcessByProcessId_S 00019b1c     <common>
+ 0003:00000b20       _KeUnstackDetachProcess_S  00019b20     <common>
+ 0003:00000b24       _KeStackAttachProcess_S    00019b24     <common>
+ 0003:00000b28       _ObInsertObject_S          00019b28     <common>
+ 0003:00000b2c       _ObOpenObjectByPointer_S   00019b2c     <common>
+ 0003:00000b30       _ObReferenceObjectByHandle_S 00019b30     <common>
+ 0003:00000b34       _OrigObDuplicateObject     00019b34     <common>
+ 0003:00000b38       _KeFreezeAllThreads        00019b38     <common>
+ 0003:00000b3c       _KeThawAllThreads          00019b3c     <common>
+ 0003:00000b40       _ExfReleasePushLockShared  00019b40     <common>
+ 0003:00000b44       _ExfAcquirePushLockShared  00019b44     <common>
+ 0003:00000b48       _KiCheckForKernelApcDelivery 00019b48     <common>
+ 0003:00000b4c       _PsReferenceProcessFilePointer 00019b4c     <common>
+ 0003:00000b50       _NtFlushInstructionCache   00019b50     <common>
+ 0003:00000b54       _ObCloseHandle             00019b54     <common>
+ 0003:00000b58       _NtResumeThread            00019b58     <common>
+ 0003:00000b5c       _RtlImageNtHeader          00019b5c     <common>
+ 0003:00000b60       _PsSuspendThread           00019b60     <common>
+ 0003:00000b64       _NtSuspendThread           00019b64     <common>
+ 0003:00000b68       _ObCreateObject            00019b68     <common>
+ 0003:00000b6c       _ExSystemExceptionFilter   00019b6c     <common>
+ 0003:00000b70       _KeGetPreviousMode         00019b70     <common>
+ 0003:00000b74       _PspSystemDlls             00019b74     <common>
+ 0003:00000b78       _PspLoadImageNotifyRoutine 00019b78     <common>
+ 0003:00000b7c       _PspNotifyEnableMask       00019b7c     <common>
+ 0003:00000b80       _g_KernlModule             00019b80     <common>
+ 0003:00000b84       _g_LocateDriverObj         00019b84     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_ntoskrnl 0001a000     ntoskrnl:ntoskrnl.exe
+ 0004:00000014       __IMPORT_DESCRIPTOR_HAL    0001a014     Hal:HAL.dll
+ 0004:00000028       __NULL_IMPORT_DESCRIPTOR   0001a028     ntoskrnl:ntoskrnl.exe
+
+ entry point at        0001:00002550
+
+ Static symbols
+
+ 0000:ffff6000       _volmd                     00010000     CommonFunc.obj
+ 0000:ffff6000       _volmd                     00010000     CommonFunc.obj
+ 0000:ffff6000       _volmd                     00010000     kDbgSys.obj
+ 0000:ffff6000       _volmd                     00010000     kDbgSys.obj
+ 0000:ffff4000       .debug$S                   00010000     Hal:HAL.dll
+ 0000:ffff4000       .debug$S                   00010000     Hal:HAL.dll
+ 0000:ffff4000       .debug$S                   00010000     Hal:HAL.dll
+ 0000:ffff4000       .debug$S                   00010000     Hal:HAL.dll
+ 0000:ffff4000       .debug$S                   00010000     Hal:HAL.dll
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff4000       .debug$S                   00010000     ntoskrnl:ntoskrnl.exe
+ 0000:ffff600c       _volmd                     0001000c     kDbgSys.obj
+ 0000:ffff6018       _volmd                     00010018     kDbgSys.obj
+ 0000:ffff601c       _volmd                     0001001c     CommonFunc.obj
+ 0000:ffff6028       _volmd                     00010028     kDbgSys.obj
+ 0001:00003edc       $LN18                      00014edc     kDbgSys.obj
+ 0001:00005880       _RtlStringValidateDestW@12 00016880 f   kDbgSys.obj
+ 0001:000058b0       _RtlStringCopyWorkerW@20   000168b0 f   kDbgSys.obj
+ 0002:00000380       __sehtable$_GetModuleByName@8 00018380     CommonFunc.obj
+ 0002:00000390       __sehtable$_KiEmulateAtlThunk@20 00018390     CommonFunc.obj
+ 0002:000003a0       __sehtable$_SearchAddressForSign@12 000183a0     CommonFunc.obj
+ 0002:000003b0       __sehtable$_DbgkpSuppressDbgMsg@4 000183b0     kDbgSys.obj
+ 0002:000003c0       __sehtable$_DbgkMapViewOfSection@12 000183c0     kDbgSys.obj
+ 0002:000003d0       __sehtable$_NtDebugContinue@12 000183d0     kDbgSys.obj
+ 0002:000003e0       __sehtable$_DbgkpMarkProcessPeb@4 000183e0     kDbgSys.obj
+ 0002:000003f0       __sehtable$_DbgkpPostModuleMessages@12 000183f0     kDbgSys.obj
+ 0002:00000400       __sehtable$_DbgkpPostFakeThreadMessages@20 00018400     kDbgSys.obj
+ 0002:00000410       __sehtable$_NtWaitForDebugEvent@16 00018410     kDbgSys.obj
+ 0002:00000428       __sehtable$_NtCreateDebugObject@16 00018428     kDbgSys.obj
+ 0002:00000440       __sehtable$_DbgkCreateThread@4 00018440     kDbgSys.obj
+ 0003:00000000       $SG38222                   00019000     CommonFunc.obj
+ 0003:0000001c       $SG38224                   0001901c     CommonFunc.obj
+ 0003:00000040       $SG38225                   00019040     CommonFunc.obj
+ 0003:00000070       $SG38226                   00019070     CommonFunc.obj
+ 0003:00000090       $SG38227                   00019090     CommonFunc.obj
+ 0003:000000b4       $SG38228                   000190b4     CommonFunc.obj
+ 0003:000000d0       $SG38229                   000190d0     CommonFunc.obj
+ 0003:0000010c       $SG38230                   0001910c     CommonFunc.obj
+ 0003:00000144       $SG38231                   00019144     CommonFunc.obj
+ 0003:00000178       $SG38232                   00019178     CommonFunc.obj
+ 0003:000001ac       $SG38235                   000191ac     CommonFunc.obj
+ 0003:000001d4       $SG38333                   000191d4     CommonFunc.obj
+ 0003:000001fc       $SG38338                   000191fc     CommonFunc.obj
+ 0003:00000220       $SG38339                   00019220     CommonFunc.obj
+ 0003:00000234       $SG38410                   00019234     CommonFunc.obj
+ 0003:00000244       $SG38444                   00019244     CommonFunc.obj
+ 0003:00000254       $SG38665                   00019254     CommonFunc.obj
+ 0003:00000278       $SG38666                   00019278     CommonFunc.obj
+ 0003:000002a0       $SG38696                   000192a0     CommonFunc.obj
+ 0003:000002c4       $SG38697                   000192c4     CommonFunc.obj
+ 0003:000002d8       $SG38698                   000192d8     CommonFunc.obj
+ 0003:000002fc       $SG38699                   000192fc     CommonFunc.obj
+ 0003:0000033c       $SG38878                   0001933c     CommonFunc.obj
+ 0003:00000354       $SG38899                   00019354     CommonFunc.obj
+ 0003:00000378       $SG38900                   00019378     CommonFunc.obj
+ 0003:000003dc       $SG38904                   000193dc     CommonFunc.obj
+ 0003:00000400       $SG38905                   00019400     CommonFunc.obj
+ 0003:00000404       $SG38966                   00019404     CommonFunc.obj
+ 0003:00000438       $SG39058                   00019438     CommonFunc.obj
+ 0003:0000045c       $SG39061                   0001945c     CommonFunc.obj
+ 0003:00000470       $SG39066                   00019470     CommonFunc.obj
+ 0003:000004b8       $SG39067                   000194b8     CommonFunc.obj
+ 0003:000006b8       $SG37010                   000196b8     DriverEntry.obj
+ 0003:000006d0       $SG42823                   000196d0     kDbgSys.obj
+ 0003:000006f0       $SG42824                   000196f0     kDbgSys.obj
+ 0003:000006f4       $SG42830                   000196f4     kDbgSys.obj
+ 0003:00000714       $SG42831                   00019714     kDbgSys.obj
+ 0003:00000718       $SG42836                   00019718     kDbgSys.obj
+ 0003:00000738       $SG42837                   00019738     kDbgSys.obj
+ 0003:0000073c       $SG42848                   0001973c     kDbgSys.obj
+ 0003:0000075c       $SG42849                   0001975c     kDbgSys.obj
+ 0003:00000760       $SG42910                   00019760     kDbgSys.obj
+ 0003:00000788       $SG43013                   00019788     kDbgSys.obj
+ 0003:000007a8       $SG43014                   000197a8     kDbgSys.obj
+ 0003:000007ac       $SG43104                   000197ac     kDbgSys.obj
+ 0003:000007cc       $SG43105                   000197cc     kDbgSys.obj
+ 0003:000007d0       $SG43151                   000197d0     kDbgSys.obj
+ 0003:000007f0       $SG43152                   000197f0     kDbgSys.obj
+ 0003:000007f8       $SG38190                   000197f8     ReloadKernel.obj
+ 0003:00000804       $SG38191                   00019804     ReloadKernel.obj
+ 0003:0000080c       $SG38192                   0001980c     ReloadKernel.obj
+ 0003:0000081c       $SG38224                   0001981c     ReloadKernel.obj
+ 0003:0000082c       $SG38225                   0001982c     ReloadKernel.obj
+ 0003:0000083c       $SG38303                   0001983c     ReloadKernel.obj
+ 0003:00000848       $SG38241                   00019848     ReloadKernel.obj
+ 0003:00000894       $SG38272                   00019894     ReloadKernel.obj
+ 0003:000008a4       $SG38273                   000198a4     ReloadKernel.obj
+ 0003:000008b4       $SG38305                   000198b4     ReloadKernel.obj
+ 0003:000008d4       $SG38307                   000198d4     ReloadKernel.obj
+ 0003:000008f0       $SG38308                   000198f0     ReloadKernel.obj
+ 0003:00000908       $SG38418                   00019908     ReloadKernel.obj
+ 0003:00000920       $SG38420                   00019920     ReloadKernel.obj
+ 0003:00000940       $SG38422                   00019940     ReloadKernel.obj
+ 0003:00000960       $SG38424                   00019960     ReloadKernel.obj
+ 0003:00000980       $SG38426                   00019980     ReloadKernel.obj
+ 0003:000009a4       $SG38428                   000199a4     ReloadKernel.obj
+ 0003:000009c0       $SG38430                   000199c0     ReloadKernel.obj
+ 0003:000009e8       $SG38431                   000199e8     ReloadKernel.obj
+ 0003:00000a00       ?write_fast_mutex@?1??log_filter@@9@9 00019a00     CommonFunc.obj
+ 0003:00000a20       ?is_init_lock@?1??log_filter@@9@9 00019a20     CommonFunc.obj
+ 0004:00000622       .idata$6                   0001a622     ntoskrnl:ntoskrnl.exe
+ 0004:00000698       .idata$6                   0001a698     Hal:HAL.dll
